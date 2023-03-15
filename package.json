@@ -1,0 +1,26 @@
+{
+  "name": "access-refresh-token-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/app.js",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-redis": "^7.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "http-errors": "^2.0.0",
+    "joi": "^17.8.4",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "redis": "^4.6.5"
+  }
+}
